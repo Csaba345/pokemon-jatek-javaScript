@@ -1,46 +1,26 @@
-ai pront:
-program belépési pontja:index.js
-Példonyosítjuk a jatekter
-Játéktér példányosítja a
--Jatekos
--info
--Targy
+Modul szerepe a rendszerben
+A Jatekos osztály felelős:
 
-írd a meg kódban
+a játékos adatainak tárolásáért
 
-Jatekos
-adattagok: elet:int, pont:int, helyzet:(x:int y:int), hatizsak [], kep(Pokemon):String
-tagfüggvények:
+a játékos pozíciójának kezeléséért
+
+a játékos pontjainak számításáért
+
+a tárgyak felvételéért és hatásuk alkalmazásáért
+
+a játékos állapotának megjelenítéséért
+
+Ez az osztály a játék logikájának egyik központi eleme.
+
+Metódusok
 megjelenit()
-targyFelvesz()-itt kerül a tárgy a hátizsákba pontszámítás
-setHelyet(dx,dy)-ez  kiszámolja a játékos helzetét
-getNev()
-getPont()
+A játékos aktuális állapotát írja ki a konzolra.
 
-írd a meg kódban
+Paraméter: nincs
 
-Jatekter
-adattagok: meret:{szelesseg:int, magassag:int}targyak[]
-tagfüggvények:
-init()-beállítja a játékos (és a tárgyak) kezdő pozícoját
-mozgatas()-itt mozgatjuk Játékos
+Visszatérés: void
 
-írd a meg kódban
+Működés:
 
-Mit az targy a pozítcióját
-
-Targy
-
-kikel írni a html a pont és elet
-Info
-
-a billentűzel a nyílakal lehet írányitani és nem tudjalemenni a játéktéről 
-kell README.md
-
-
-
-Services osztály és Játéktérvel együt példányosít
-
-képként irányítjuk a karaktert
-
-teljes kódot kérem 
+Kiírja a játékos nevét, pontszámát és pozícióját.

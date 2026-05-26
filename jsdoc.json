@@ -1,0 +1,15 @@
+{
+  "source": {
+    "include": ["."],
+    "includePattern": ".+\\.js(doc|x)?$",
+    "excludePattern": "(^|\\/|\\\\)_"
+  },
+  "opts": {
+    "readme": "README.md",
+    "destination": "./out/",
+    "recurse": true
+  },
+  "plugins": [
+    "plugins/markdown"
+  ]
+}
